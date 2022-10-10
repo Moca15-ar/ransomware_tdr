@@ -5,11 +5,11 @@ _ - Fernet method with Cryptography library._
  
 ## LIBRARIES
  
-_ - criptography.fernet
-       https://www.geeksforgeeks.org/fernet-symmetric-encryption-using-cryptography-module-in-python/
+- criptography.fernet
+--->https://www.geeksforgeeks.org/fernet-symmetric-encryption-using-cryptography-module-in-python/
  
-_ - os  #to create/remove directories, fetch its contents, change and identify current directory
-       https://docs.python.org/3/library/os.html
+- os -- to create/remove directories, fetch its contents, change and identify current directory
+--->https://docs.python.org/3/library/os.html
  
  
 ## HISTORY OF VERSIONS
