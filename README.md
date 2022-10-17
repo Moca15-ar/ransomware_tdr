@@ -1,7 +1,7 @@
 
 ## PYTHON RANSOMWARE
  
-_ - Fernet method with Cryptography library._
+- Fernet method with Cryptography library._
  
 ## LIBRARIES
  
