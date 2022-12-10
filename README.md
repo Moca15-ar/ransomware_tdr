@@ -14,6 +14,6 @@
  
 - v1.0.0: encrypt and decrypt files on a local directory
 - v2.0.0: get, encrypt and decrypt certain files from an user accout, unlocked by a password
-- v2.0.1: add a __init__.py file, to manage all the processes
+- v2.1.0: add a __init__.py file, to manage all the processes
 
  
