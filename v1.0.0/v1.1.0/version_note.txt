@@ -10,6 +10,7 @@ STABLE = False
 
 ######## BUGS ########
 - decrypt function: cryptography.fernet.InvalidToken on line 21
+- unable to encrypt folder's content
 
 
 ######## FIXED ########
