@@ -1,0 +1,16 @@
+VERSION = 1.1.0
+RELEASE = oct 2022
+STABLE = False
+
+######## THEORETICAL FEATURES ########
+- creates key in the working directory (not the file's dirctory)
+- encrypts any kind of data on a specified directory
+- decrypts the data
+
+
+######## BUGS ########
+- decrypt function: cryptography.fernet.InvalidToken on line 21
+
+
+######## FIXED ########
+- NULL
