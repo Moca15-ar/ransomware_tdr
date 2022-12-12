@@ -5,6 +5,7 @@ STABLE = False
 ######## THEORETICAL FEATURES ########
 - creates key in the working directory (not the file's dirctory)
 - encrypts any kind of data on a specified directory
+- creates .txt file claiming that the data has been encrypted
 - decrypts the data
 
 
