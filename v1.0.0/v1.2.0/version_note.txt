@@ -1,1 +1,22 @@
+VERSION = 1.2.0
+RELEASE = oct 2022
+STABLE = True
 
+######## THEORETICAL FEATURES ########
+- creates key in the same directory as function files
+- encrypts any kind of data on a specified directory
+- creates .txt file claiming that the data has been encrypted
+- decrypts the data
+
+######## ADDED SINCE LAST VERSION ########
+- key is created on function files' directory, not on wd because wd may vary from one execution to another
+- readme.txt automatically removed before decryption
+- key.key file removed after decryption
+
+######## BUGS ########
+- unable to encrypt folder's content
+
+######## FIXED ########
+- decrypt function: cryptography.fernet.InvalidToken on line 21 : a .txt file was created on the encrypted folder claiming that the data had been encrypted. 
+    when the function decrypt was called, this not encrypted .txt file caused an error because a non-encrypted file cannot be decrypted. So if this file is 
+    deleted just before decryption, it won't interfere
