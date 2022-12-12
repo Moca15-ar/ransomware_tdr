@@ -10,10 +10,9 @@
 - os -- to create/remove directories, fetch its contents, change and identify current directory (https://docs.python.org/3/library/os.html)
  
  
-## HISTORY OF VERSIONS
+## STABLE VERSIONS
  
-- v1.0.0: encrypt and decrypt files on a local directory
-- v2.0.0: get, encrypt and decrypt certain files from an user accout, unlocked by a password
-- v2.1.0: add a __init__.py file, to manage all the processes
-
+ - V1.1.0 [stable = false]
+ - V1.2.0 [stable = true]
  
+ - V2.1.0 [stable = false]
