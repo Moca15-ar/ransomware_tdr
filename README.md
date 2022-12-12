@@ -1,7 +1,8 @@
 
 ## PYTHON RANSOMWARE
  
-- Fernet method with Cryptography library._
+- Fernet method with Cryptography library.
+- to install all required packages, run < pip install -r requirements.txt > on windows cmd
  
 ## LIBRARIES
  
