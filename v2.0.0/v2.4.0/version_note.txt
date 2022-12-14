@@ -1,1 +1,23 @@
-b
+VERSION = 2.4.0
+RELEASE = nov 2022
+STABLE = True (in theory)
+
+######## THEORETICAL FEATURES ########
+- the __init__ file initializes the process
+- moves files to c:\MocaRW so they won't be encrypted
+- looks for all the users in the system and scans their directories
+- filters the files in the directories according to their extension
+- creates dictionary with all the paths that will be encrypted
+- creates key in the same directory as function files
+- encrypts all the files in the dictionary
+- creates a window where the user has to enter a password to decrypt the data
+- decrypts the data
+
+######## ADDED SINCE LAST VERSION ########
+
+
+######## BUGS ########
+
+
+######## FIXED ########
+- path bugs 
